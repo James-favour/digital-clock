@@ -10,6 +10,7 @@ function clock() {
     let am_pm = "AM"
 
     if (h > 12) {
+        h = h-12;
         am_pm = "PM"
     }
 
